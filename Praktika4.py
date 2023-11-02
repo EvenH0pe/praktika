@@ -1,5 +1,5 @@
 import random
-print("praktika 4:igra v kamni")
+print("praktika :igra v kamni")
 print("\\\\\\\\\\\Да начнётся игра в камни!///////")
 
 def igra(n):
@@ -12,7 +12,7 @@ def igra(n):
             print("Вы должны ввести целое число камней")
             exit(0)
         if a>3 or a<1:
-            print("Должно быть введено значение от 1 до 3")
+            print("Введите значение от 1 до 3")
             exit(0)
         n -= a
         if n <= 0:
