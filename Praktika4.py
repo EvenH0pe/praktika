@@ -1,4 +1,5 @@
 import random
+print("praktika 4:igra v kamni")
 print("\\\\\\\\\\\Да начнётся игра в камни!///////")
 
 def igra(n):
